@@ -1,0 +1,31 @@
+{
+  "languages": ["JavaScript", "TypeScript", "C#", "Java"],
+  "frameworks": [
+    "React.js",
+    "Node.js",
+    "Next.js",
+    ".NET",
+    "React native",
+    "Express.js"
+  ],
+  "databases": ["PostgreSQL", "MongoDB", "MySQL", "SQLite"],
+  "cloud": ["AWS", "Docker"],
+  "other": [
+    "Git",
+    "Agile",
+    "REST APIs",
+    "GraphQL",
+    "CI/CD",
+    "Figma",
+    "Jira",
+    "Scrum",
+    "TDD",
+    "Jest",
+    "HTML",
+    "CSS",
+    "SASS",
+    "Tailwind CSS",
+    "Material UI",
+    "Bootstrap"
+  ]
+}

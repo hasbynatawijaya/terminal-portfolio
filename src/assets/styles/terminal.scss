@@ -1,0 +1,80 @@
+@import "variables";
+
+body {
+  font-family: monospace;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.terminal {
+  background-color: $terminal-background;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  width: 720px;
+  max-height: 400px;
+}
+
+.prompt {
+  color: $prompt-color;
+}
+
+.output {
+  white-space: pre-wrap;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-prefix {
+  color: $input-prefix-color;
+  margin-right: 5px;
+}
+
+#commandInput {
+  flex-grow: 1;
+  background: transparent;
+  color: $text-color;
+  border: none;
+  outline: none;
+  font-family: monospace;
+  font-size: 1em;
+  padding: 5px;
+}
+
+#output {
+  margin-top: 10px;
+}
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 0.05s steps(100, end);
+}
+
+.typing-result {
+  white-space: normal;
+}
+
+.command {
+  color: $command-color;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
