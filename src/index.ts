@@ -13,7 +13,7 @@ commandInput.addEventListener("keydown", function (event: KeyboardEvent) {
     this.value = "";
 
     const output = document.createElement("p");
-    output.innerHTML = `<span class="prompt">guest@alexportfolio:~$</span> <span style="color: #eee;">${command}</span>`;
+    output.innerHTML = `<span class="prompt">guest@hasbyportfolio:~$</span> <span style="color: #eee;">${command}</span>`;
     outputDiv.appendChild(output);
 
     if (commands.hasOwnProperty(command)) {
